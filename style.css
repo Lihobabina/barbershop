@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.7rem;
+    color: #e9e9e9;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: url(./images/2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+header{
+    width: 100%;
+    padding: 15px 35px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header > nav a{
+    text-decoration: none;
+    font-size: 2rem;
+    margin-right: 15px;
+    color: #e9e9e9;
+}
+.container > img{
+    width: 50%;
+    height: auto;
+}
+.about{
+    width: 100%;
+    padding: 35px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(./images/patt.jpg) no-repeat;
+    background-size: cover;
+}
+.about > h2{
+    text-align: center;
+    font-size: 3rem;
+}
+.about > h2::after{
+    display: block;
+    margin: 0 auto;
+      margin-top: 0px;
+      margin-bottom: 0px;
+    content: ' ';
+    background-image: url("https://gentlemen-barberclubs.de/css/../images/deco_white.svg");
+    background-size: 129px 13px;
+    height: 13px;
+    width: 129px;
+}
+.about > h2::before {
+    display: block;
+    margin: 0 auto;
+      margin-bottom: 0px;
+    content: ' ';
+    background-image: url("https://gentlemen-barberclubs.de/css/../images/deco_white.svg");
+    background-size: 129px 13px;
+    height: 13px;
+    width: 129px;
+    transform: rotate(180deg);
+    margin-bottom: 10px;
+  }
+.about > p{
+    width: 60%;
+    text-align: center;
+    margin-top: 25px;
+    font-family: 'PT Serif', serif;
+}
+footer{
+    width: 100%;
+    padding: 10px 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+}
+footer > img{
+    height: 100px;
+}
+footer > nav a{
+    text-decoration: none;
+    font-size: 2rem;
+    margin-right: 15px;
+    color: #e9e9e9;
+}
+/* about */
+.header-price, .footer-price{
+    background-color: #000000;
+}
+.price-main{
+    background-color: #242424;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 15px;
+    background: url(./images/1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.price-main > h2{
+    width: 100%;
+    text-align: center;
+}
+.price-main > h2::after{
+    display: block;
+    margin: 0 auto;
+      margin-top: 0px;
+      margin-bottom: 0px;
+    content: ' ';
+    background-image: url("https://gentlemen-barberclubs.de/css/../images/deco_white.svg");
+    background-size: 129px 13px;
+    height: 13px;
+    width: 129px;
+}
+.services{
+    width: 60%;
+    padding: 25px;
+    border: 1.5px solid #afa27b;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+.services > .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: #9a9a9a dotted 3px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.services > .row > h4{
+    color: #afa27b;
+}
+.services > .row > span{
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 3px;
+}
+.services > .row > span h5{
+    font-size: 1.3rem;
+    font-family: 'PT Serif', serif;
+}
+.td{
+    position: relative;
+}
+.td::after{
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 1px;
+    background-color: #afa27b;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.golden{
+    color: #afa27b;
+}
+/* contacts */
+.contacts-main{
+    background: url(./images/ban.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.contacts-main > h2{
+    font-size: 3rem;
+}
+.contacts{
+    width: 80%;
+    padding: 25px;
+    background-color: #070707;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2rem;
+}
+.fa-solid{
+    color: #afa27b;
+}
+.column{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.contacts > .column > .row{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contacts > .column > span{
+    display: inline-block;
+    width: 100%;
+}
+.contacts > .column > span > a{
+    text-decoration: none;
+    font-size: 1.7rem;
+    color: #e9e9e9;
+}
+.contacts > h3{
+    text-align: center;
+}
+.row2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    column-gap: 25px;
+}
+.row2 > .col{
+    text-align: start;
+}
+.row2 > .col > h5{
+    color: #afa27b;
+}
+.book{
+    display: block;
+    width: 60%;
+    padding: 10px;
+    background-color: #afa27b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #e9e9e9;
+    border-radius: 10px;
+}
+iframe{
+    width: 50%;
+}
+/* gallery */
+.gallery{
+    background-color: #000000;
+}
+.gallery-main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.img-cont{
+    overflow: hidden;
+    width: auto;
+    height: auto;
+}
+.img-cont > img{
+    height: 300px;
+    transform: scale(1);
+    transition: 0.3s;
+}
+.img-cont > img:hover{
+    transform: scale(1.1);
+}
+@media (max-width: 950px) {
+    .container{
+        height: auto;
+    }
+    .about > p, .services, iframe{
+        width: 80%;
+    }
+    .contacts{
+        flex-direction: column;
+    }
+    .column{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .contacts  >.column > h3, .row2 > .col{
+        text-align: center;
+    }
+    .row2{
+        justify-content: center;
+    }
+    .book{
+        align-self: center;
+    }
+}
+@media (max-width: 490px){
+    body{
+        font-size: 1.3rem;
+    }
+    header, .about{
+        padding: 10px;
+        justify-content: center;
+    }
+    header > nav a, footer > nav a{
+        font-size: 1.3rem;
+        margin-right: 5px;
+    }
+    .container > img{
+        width: 70%;
+    }
+    footer > img{
+        height: 65px;
+    }
+    .about > p, .services, .contacts, .book, iframe{
+        width: 90%;
+    }
+    .services, .price-main, footer, .contacts-main, .contacts{
+        padding: 10px;
+    }
+    .img-cont > img, iframe{
+        height: 140px;
+    }
+}
