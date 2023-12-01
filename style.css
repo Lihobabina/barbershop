@@ -305,23 +305,26 @@ iframe{
         padding: 10px;
         justify-content: center;
     }
-    header > nav a, footer > nav a{
+    header > nav a{
+        font-size: 1.5rem;
+    }
+     footer > nav a{
         font-size: 1.3rem;
         margin-right: 5px;
-    }
-    .container > img{
-        width: 70%;
     }
     footer > img{
         height: 65px;
     }
-    .about > p, .services, .contacts, .book, iframe{
+    .about > p, .services, .contacts, .book, iframe, .container > img{
         width: 90%;
     }
     .services, .price-main, footer, .contacts-main, .contacts{
         padding: 10px;
     }
-    .img-cont > img, iframe{
+    .img-cont > img{
+        height: 250px;
+    }
+     iframe{
         height: 140px;
     }
 }
